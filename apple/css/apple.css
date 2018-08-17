@@ -1,0 +1,432 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-10 15:15:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-17 09:23:13
+*/
+header{
+	 width: 100%;
+    height: 44px;
+    background: #333;
+    padding-left: 158px;
+    padding-right: 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 44px;
+}
+
+
+
+main .box{
+	display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+main .iphoneX{
+    width: 100%;
+    height: 580px;
+    background-image: url('../img/iphone_x_large.jpg');
+    background-repeat: no-repeat;
+    background-color: #fafafa;
+    background-position: center bottom;
+    margin-bottom: 14px;
+}
+main .iPad{
+	width: 100%;
+    height: 580px;
+    background-image: url('../img/ipad_large.jpg');
+    background-repeat: no-repeat;
+    background-color: #fafafa;
+    background-position: center bottom;
+    margin-bottom: 14px;
+}
+main .macbook{
+	width: 100%;
+    height: 580px;
+    background-image: url('../img/macbook_pro_performance_large.jpg');
+    background-repeat: no-repeat;
+    background-color: #131218;
+    background-position: center bottom;
+}
+main h3{
+    padding-top:50px;
+    font-size: 56px; 
+    font-weight: 900;
+}
+main p{
+    font-size: 27px;
+    font-weight: 400;
+}
+main a{
+	color: #0070c9;
+	font-size: 21px;
+	font-weight: 400;
+}
+main a:nth-child(2){
+    margin-left: 26px;
+}
+main .macbook h3{
+	color: #fff;
+}
+main .macbook p{
+	color: #fff;
+}
+main .macbook a{
+	color: #fff;
+}
+
+
+
+section ul li{
+	width: 50%;
+	height: 580px;
+	border: 14px solid #fff;
+	border-bottom: none;
+	float: left;
+	display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+section ul li:nth-child(2n+1){
+	border-right: none;
+}
+section ul li:nth-child(5){
+	border-bottom: 14px solid #fff;
+}
+section ul li:nth-child(6){
+	border-bottom: 14px solid #fff;
+}
+section ul li:nth-child(6){
+	background-size: 219px 292px;
+}
+section ul li h4{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 52px;
+	text-align: center;
+}
+section ul li p{
+	font-size: 21px;
+	font-weight: 400;
+	margin-top: 4px;
+}
+section ul li a{
+	font-size: 17px;
+	font-weight: 400;
+}
+section ul li a:nth-child(2){
+	margin-left: 26px;
+}
+section ul li img{
+	width: 20px;
+	height: 20px;
+}
+section ul li.box1{
+	background-image: url('../img/shop_for_college_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1262px 580px;
+}
+section ul li.box2{
+	background-image: url('../img/behind_the_mac_majid_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1262px 580px;
+}
+section ul li.box3{
+	background-image: url('../img/iphone_x_a11_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1262px 580px;
+}
+section ul li.box4{
+	background-image: url('../img/iphone_8_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 292px 391px;
+	background-color: #F9F0EB;
+}
+section ul li.box5{
+	background-image: url('../img/trade_up_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1262px 580px;
+}
+section ul li.box6{
+	background-image: url('../img/three_rings_large.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: center bottom;
+	background-size: 283px 386px;
+	background-color:#000;
+}
+section ul li.box2 h4{
+    color: #fff;
+    padding-top: 390px;
+}
+section ul li.box2 .link a{
+	font-size: 16px;
+	color: #fff;
+}
+section ul li.box3 h4{
+    color: #fff;
+    padding-top: 350px;
+}
+section ul li.box3 p{
+	color: #fff;
+}
+section ul li.box3 .link a{
+	color: #fff;
+}
+section ul li.box4 .link a{
+	color: #0070c9;
+}
+section ul li.box5 p{
+	text-align: center;
+	margin: 5px auto;
+}
+section ul li.box6 h4{
+    color: #fff;
+}
+section ul li.box6 p{
+	text-align: center;
+	color: #fff;
+}
+
+	
+
+footer{
+	width: 100%;
+    background: #f2f2f2;
+    
+}
+footer .top{
+	width: 100%; 
+	margin-left: 13%; 
+}
+footer .top dl{
+    float: left;
+    width: 140px;
+    height: 210px;
+    margin-right:50px;
+    margin-top: 40px;
+}
+footer .top dt{
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer .top dt:nth-child(4){
+    margin-top: 25px;
+}
+footer .top dt:nth-child(6){
+    margin-top: 30px;
+}
+footer .top dt p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 85%;
+}
+footer .top dd{
+	font-size: 11px;
+	font-weight: 400;
+}
+footer .bottom{
+	width: 75%;
+	height: 113px;
+	padding-top: 34px;
+	padding: 17px 0 21px;
+	margin: 0 auto;
+}
+footer .bottom p{
+	font-size: 11px;
+	font-weight: 400;
+	color: #999;
+}
+footer .bottom a{
+	font-size: 11px;
+	font-weight: 400;
+}
+footer .bottom img{
+	width: 15px;
+	height: 15px;
+}
+
+footer .bottom .box1{
+    float: left;
+	width: 980px;
+	margin-bottom: 7px;
+	border-bottom: 1px solid #d6d6d6;
+}
+footer .bottom .box2 {
+	display: flex;
+    flex-direction: row;
+}
+footer .bottom .box2 .link{
+	margin-left: 30px;
+}
+footer .bottom .box2 .link a{
+	color: #000;
+	font-size: 11px;
+	font-weight: 400;
+	padding-right: 10px;
+	border-right: 1px solid #d6d6d6;
+}
+footer .bottom .box3{
+	float: left;
+}
+footer .bottom .box3 a{
+	color: #999;
+}
+footer .box{
+	float: right;
+}
+footer .box img{
+	float: left;
+}
+footer .box p{
+	color: #000;
+	float: right;
+}
+
+
+
+@media  screen and (max-width: 1200px) {
+    main h3{
+    	font-size: 44px;
+    }
+    main p{
+    	font-size: 24px;
+    }
+    main a{
+    	font-size: 17px;
+    }
+    mian .box{
+    	background-size: 736px 337px;
+    }
+
+
+    section ul li{
+    	height: 490px;
+    	background-size: 516px 490px;
+    }
+    section ul li:nth-child(4){
+	background-size: 229px 305px;
+    }
+    section ul li:nth-child(6){
+	background-size: 219px 292px;
+    }
+    section h4{
+    	font-size: 32px;
+    	margin-top: 42px;
+    }
+    section p{
+    	font-size: 19px;
+    }
+    section a{
+    	margin-left: 20px;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    header{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    main h3{
+    	font-size: 32px;
+    }
+    main p{
+    	font-size: 19px;
+    }
+    main a{
+    	font-size: 17px;
+    }
+    main a:nth-child(2){
+    	margin-left: 20px;
+    }
+    main .iphoneX{
+    	background-image: url('../img/iphone_x_small.jpg');
+    }
+    main .iPad{
+    	background-image: url('../img/ipad_small.jpg');
+    }
+    main .macbook{
+    	background-image: url('../img/macbook_pro_performance_small.jpg');
+    }
+    section ul li{
+    	width: 100%;
+    	height: 490px;
+    	background-size: 736px 548px;
+    }
+    section ul li h4{
+    	font-size: 32px;
+    	margin-top: 37px;
+    }
+    section ul li p{
+    	font-size: 19px;
+    	margin-top: 3px;
+    }
+    section ul li a{
+    	margin-left: -8px;
+    }
+    footer .top{
+    	margin: 0;
+    	padding: 0;
+    }
+    footer .top dl{
+    	width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    footer .top dt{
+        width: 100%;
+        margin: 0;
+        border-bottom: 1px solid #ccc;
+        padding: 10px 5px;
+        margin-left: 15px;
+    }
+    footer .top dt:nth-child(4){
+    margin-top: 0;
+    }
+    footer .top dt:nth-child(6){
+    margin-top: 0;
+    }
+    footer .bottom{
+        padding:0 15px;
+        margin: 0;
+    }
+    footer .bottom .box1{
+        width: 100%;
+        border-bottom: none;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    footer .bottom .box2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+    footer .bottom .box2 .link{
+        width: 100%;
+        margin-left: 0;
+        margin-top: -10px;
+    }
+    footer .bottom .box{
+        float: left;
+    }
+}
+   
